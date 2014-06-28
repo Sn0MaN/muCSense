@@ -35,7 +35,8 @@ void setup() {
   
   //Call factory methods to get single instances of each sensor.
   // To get a sensor at a specific I2C bus address, pass the 
-  // address in to the factory method.  pAccel = ADXL345::instance();
+  // address in to the factory method.  
+  pAccel = ADXL345::instance();
   pMag = HMC5843::instance();
   pGyro = ITG3200::instance();
   
